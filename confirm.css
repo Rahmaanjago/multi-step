@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,a,span{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+colors {
+    --marine-blue: hsl(213, 96%, 18%);
+    --purplish-blue: hsl(243, 100%, 62%);
+    --pastel-blue: hsl(228, 100%, 84%);
+    --light-blue: hsl(206, 94%, 87%);
+    --strawberry-red: hsl(354, 84%, 57%);
+    --cool-gray: hsl(231, 11%, 63%);
+    --light-gray: hsl(229, 24%, 87%);
+    --magnolia: hsl(217, 100%, 97%);
+    --alabaster: hsl(231, 100%, 99%);
+    --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color:hsl(217, 100%, 97%);
+    
+}
+
+section{
+    width: 100%;
+    max-width: 900px;
+    margin: 6rem auto;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.number_pinned{
+   display: flex;
+    gap: 6rem;
+}
+
+.number_list{
+    padding: 2rem 6rem 18rem 2rem;
+    background-image: url(assets/images/bg-sidebar-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border-radius: 10px;
+    
+}
+
+.info,.plan,.add,.summary{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+
+}
+
+#info_text{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+    
+}
+
+#info_text div{
+   font-size: small;
+    font-weight: 600;
+    color: hsl(231, 11%, 63%);
+    text-transform: uppercase;
+}
+
+#info_text h5{
+    font-size: small;
+    font-weight: 600;
+    color: hsl(229, 24%, 87%);
+    text-transform: uppercase;
+}
+
+.no4 a{
+    text-decoration: none;
+    padding: .3rem .6rem;
+    border: none;
+    border-radius: 4rem;
+    background-color: hsl(206, 94%, 87%);
+}
+.no2 a,.no3 a,.no1 a{
+    text-decoration: none;
+    padding: .3rem .6rem;
+    border: 1px solid hsl(217, 100%, 97%);
+    border-radius: 4rem;
+    color: hsl(217, 100%, 97%);
+
+}
+
+.varying_page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 0rem 2rem 0rem 0rem;
+    text-align: center;
+}
+
+.varying_page img{
+    width: 80px;
+    height: 80px;
+}
+
+.varying_page h2{
+    font-size: 3rem;
+    color: hsl(213, 96%, 18%);
+}
+
+.varying_page p{
+    line-height: 1.5rem;
+    color: hsl(231, 11%, 63%);
+    font-size: 17px;
+    font-weight: 500;
+}
+
